@@ -1,17 +1,27 @@
 eRIC Dongle Bill of Materials
 
-August 10, 2014
+October 14, 2014
 
 
 part: Osram TOPLED Green LED
+place: LED1, LED2
 qty: 2X
 cost: $0.19
 ROHS: YES
 
 http://www.digikey.com/product-detail/en/LG%20M47K-G1J2-24-Z/475-1404-1-ND/1802592
 
+part: Resistor 330 Ohm
+place: R1, R2
+qty: 2X
+cost: $0.10
+ROHS: YES
+
+http://www.digikey.com/product-detail/en/ERJ-3GEYJ331V/P330GCT-ND/134778
+
 
 part: FTDI FT-230X (SSOP)
+place: IC1
 qty: 1X
 cost: $2.38
 ROHS: YES
@@ -20,6 +30,7 @@ http://www.digikey.com/product-detail/en/FT230XS-R/768-1135-1-ND/3029155
 
 
 part: eRIC Radio Module (select appropriate frequency for your location)
+place: primary - side A
 qty: 1X
 cost: $15
 ROHS: YES
@@ -29,6 +40,7 @@ http://uk.farnell.com/lprs/eric9/trx-module-easyradio-eric-868-928mhz/dp/2362440
 
 
 part: SMA Connector
+place: SMA-PCB
 qty: 1X
 cost: $2.50
 ROHS: YES
@@ -37,6 +49,7 @@ https://www.adafruit.com/products/1865
 
 
 part: Antenna (select an appropriate antenna per frequency)
+place: external
 qty: 1X
 cost: ~$5
 ROHS: verify with supplier
@@ -45,6 +58,7 @@ http://www.lprs.co.uk/wireless-modules/antennas/whip-antennas.html
 
 
 part: USB micro-B connector
+place: mid-point PCB
 qty: 1X
 cost: $0.81
 ROHS: YES
@@ -52,5 +66,55 @@ ROHS: YES
 http://www.digikey.com/product-detail/en/0476420001/WM1398CT-ND/2350884
 
 
+part: Ferrite Chip
+place: F1
+qty: 1X
+cost: $0.11
+ROHS: YES
 
-Other components identified in .brd file along with values.
+http://www.digikey.com/product-detail/en/MMZ2012S601A/445-1556-1-ND/571886
+
+
+part: Resistor 27 Ohm
+place: R3, R4
+qty: 2X
+cost: $0.10
+ROHS: YES
+
+http://www.digikey.com/product-detail/en/ESR03EZPJ270/RHM27DCT-ND/4053754
+
+
+part: Capacitor 
+place: C1, C2
+qty: 2X
+cost: $0.10
+ROHS: YES
+
+http://www.digikey.com/product-detail/en/C0603C470J3GACTU/399-9083-1-ND/3522600
+
+
+part: Capacitor
+place: C3
+qty: 1X
+cost: $0.36
+ROHS: YES
+
+http://www.digikey.com/product-detail/en/C0603C103J3GACTU/399-7838-1-ND/3471561
+
+
+part: Capacitor
+place: C4, C6
+qty: 2X
+cost: $0.10
+ROHS: YES
+
+http://www.digikey.com/product-detail/en/GRM033R60J104KE19D/490-3167-1-ND/702708
+
+
+part: Tantalum CAP
+place: C5
+qty: 1X
+cost: $.34
+ROHS: YES
+
+http://www.digikey.com/product-detail/en/T491A475K010AT/399-3696-1-ND/819021
